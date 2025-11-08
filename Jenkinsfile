@@ -82,9 +82,9 @@ pipeline{
                     <p>Started by: ${buildUser}</p>
                     <p>Build URL: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
                 """,
-                to: arfuarfuu@gmail.com',
-                from: arfuarfuu@gmail.com',
-                replyTo: arfuarfuu@gmail.com',
+                to: 'arfuarfuu@gmail.com',
+                from: 'arfuarfuu@gmail.com',
+                replyTo: 'arfuarfuu@gmail.com',
                 mimeType: 'text/html',
                 attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
             )
