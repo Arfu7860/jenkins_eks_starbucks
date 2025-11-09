@@ -34,3 +34,6 @@ eksctl create nodegroup \
   --asg-access \
   --external-dns-access \
   --full-ecr-access
+
+aws eks update-kubeconfig --region ap-south-1 --name arfu
+
